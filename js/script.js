@@ -95,5 +95,17 @@ document.addEventListener("click", (e)=>{
             document.querySelector(".overlay").classList.remove("active");
         },500)
     }
-})
+});
+
+function showSkillInfo(element)
+{
+    
+}
+
+function hideSkillInfo()
+{
+    console.log("Chau");
+}
+
+
 

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/font-awesome.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
 
@@ -98,11 +98,13 @@
           tenetur quis optio error eveniet?</p>
           <h3>Skills</h3>
           <div class="skills">
-            <div class="skill-item">HTML</div>
+            <div class="skill-item" id="html" onmouseover="showSkillInfo()" onmouseout="hideSkillInfo()">HTML</div>
             <div class="skill-item">CSS</div>
             <div class="skill-item">JavaScript</div>
             <div class="skill-item">C</div>
             <div class="skill-item">React</div>
+            <div class="skill-item">MySQL</div>
+            <div class="skill-item">Bootstrap</div>
           </div>
           <div class="about-tabs">
               <button type="button" class="tab-item active" data-target="#education">Education</button>
@@ -275,19 +277,19 @@
     </div>
     <div class="row">
       <div class="contact-form">
-        <form>
+        <form action="https://formsubmit.co/ignaciosmirlian@gmail.com" method="POST">
           <div class="row">
             <div class="input-group">
-              <input type="text" placeholder="Name" class="input-control" required>
+              <input type="text" placeholder="Name" class="input-control" name="name" required>
             </div>
             <div class="input-group">
-              <input type="text" placeholder="Email" class="input-control" required>
+              <input type="email" placeholder="Email" class="input-control" name="email" required>
             </div>
             <div class="input-group">
-              <input type="text" placeholder="Subject" class="input-control" required>
+              <input type="text" placeholder="Subject" class="input-control" name="subject" required>
             </div>
             <div class="input-group">
-              <textarea placeholder="Message" class="input-control" required></textarea>
+              <textarea placeholder="Message" class="input-control" name="message" required></textarea>
             </div>
             <div class="submit-btn">
               <button type="submit" class="btn">Send message</button>
