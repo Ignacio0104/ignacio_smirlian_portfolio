@@ -16,9 +16,9 @@
 /*Variables*/
 
 :root{
-    --main-color: #e02f6b;
+    --main-color: #fca311;
     --blue: #0000ff;
-    --blue-dark: #18293c;
+    --blue-dark: #e5e5e5;
     --orange: #ffa500;
     --green-yellow: #cddc39;
     --pink-light: #efa2b4;
@@ -792,7 +792,7 @@ ul{
 .page-loader div:nth-child(2){
     height: 45px;
     width: 45px;
-    border-color: var(--blue);
+    border-color: var(--blue-dark);
     animation-duration: 1.2s;
 }
 
@@ -962,9 +962,6 @@ ul{
     transition: width 0.5s ease;
 }
 
-.header .nav-inner ul li a:hover::before{
-    width: 100%;
-}
 
 .header .nav-inner ul li a:hover{
     color: var(--main-color);
@@ -1110,6 +1107,7 @@ button{
     display: flex;
     flex-wrap: wrap;
 }
+
 .about-text .skill-item{
     background-color: ver(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
@@ -1117,6 +1115,10 @@ button{
     text-transform: capitalize;
     margin: 0 10px 10px 0;
     border-radius: 20px;
+}
+
+.skill-show{
+    display: block;
 }
 
 .about-tabs{

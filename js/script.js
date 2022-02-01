@@ -96,16 +96,3 @@ document.addEventListener("click", (e)=>{
         },500)
     }
 });
-
-function showSkillInfo(element)
-{
-    
-}
-
-function hideSkillInfo()
-{
-    console.log("Chau");
-}
-
-
-
