@@ -1121,6 +1121,11 @@ button{
     border-radius: 20px;
 }
 
+.skill-item{
+    cursor: pointer;
+}
+
+
 .skill-show{
     display: block;
 }
